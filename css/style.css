@@ -1,0 +1,38 @@
+body {
+   border: 3px solid red;
+   padding: 10px 14px;
+   background-image: url('../double-bubble.png');
+}
+
+body > h2 {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.dark {
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.flex-box {
+border: 2px solid black;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+padding: 30px;
+}
+
+.flex-box > img {
+    border: 3px solid green;
+    height: 300px;
+    padding: 10px;
+}
+
+.flex-box > img:hover {
+    -webkit-box-shadow: 10px 10px 45px 0px rgba(5,234,250,1);
+-moz-box-shadow: 10px 10px 45px 0px rgba(5,234,250,1);
+box-shadow: 10px 10px 45px 0px rgba(5,234,250,1);
+}
